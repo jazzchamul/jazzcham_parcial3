@@ -1,10 +1,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #003B71;
 }
 
 #titulo{
-    background-color: #ff4c68;
-    color: #fff;
+    background-color: #003B71;;
+    color: #ffffff;
  }
 
  h1 {
@@ -24,6 +25,7 @@ h3 {
     font-family: 'Montserrat';
     font-size: 1.5rem;
     font-weight: bold;
+    color: #ffffff;
 }
 
 .container-fluid{
@@ -41,10 +43,12 @@ h3 {
 }
 
 .nav-item {
+    color: #003B71;
     padding: 0 18px;
 }
 
 .nav-link {
+    color: #003B71;
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
@@ -54,41 +58,43 @@ h3 {
     margin: 5% 3% 5% 0;
 }
 
-.title-image{
-    width: 60%;
-    transform: rotate(25deg);
+.logo-image{
+    width: 45%;
     position: absolute;
     right: 30%;
+   align-items: center;
 }
 
 #caracteristicas {
     padding: 7% 15%;
-    background-color: #fff;
-    position: relative;
+    background-color: #993DBB;
+    align-content: center;
 }
 
 .caja-caracteristica{
     text-align: center;
     padding: 5%;
+    align-content: center;
+    text-align: center;
 }
 
 p{
-    color: #8f8f8f;
+    color: #ffffff;
 }
 
 .icon {
-    color: #ef8172;
-    margin-bottom: 1rem;
+    color: #0cc4c4;
+    text-align: center;
 }
 
 .icon:hover {
-    color: #ff4c68;
+    color:#003B71 ;
 }
 
 #testimonios {
     padding: 7% 15%;
     text-align: center;
-    background-color: #ef8172;
+    background-color: #00AFAA;
     color: #fff;
 }
 
@@ -99,32 +105,27 @@ p{
 }
 
 #prensa{
-    background-color: #ef8172;
+    background-color: #00AFAA;
     text-align: center;
     padding-bottom: 3%;
-}
-
-.logo-prensa {
-    width: 15%;
-    margin: 20px 20px 50px;
-}
-
-.carousel-item{
-    padding: 7% 15%;
 }
 
 #precios {
     padding: 100px;
     text-align: center;
+    color: #fafafa;
+    background-color: ##003B71;
 }
 
 .precios-col {
     padding: 3% 2%;
+    color: #75a8d8;
+    background-color: #003B71;
 }
 
 #cta{
-    background-color: #ff4c68;
-    color: #fff;
+    background-color: #20bff0;
+    color: #ffffff;
     padding: 7% 15%;
     text-align: center;
 }
@@ -143,6 +144,7 @@ p{
 
 .social-icon{
     margin: 20px 10px;
+    color: #f8f1fd;
 }
 
  
@@ -156,4 +158,21 @@ p{
         position: static;
         transform: rotate(0);
     }
+}
+p.des{
+    color: #fff;
+    text-align: center;
+}
+.row{
+    text-align: center;
+    align-content: center;
+}
+p.cuadro{
+    color: #030101;
+}
+h3.titu{
+    color: #762ba8;
+}
+h4.copy{
+    color: #ffffff;
 }
